@@ -1,0 +1,1 @@
+packageSearchIndex = [{"l":"All Packages","u":"allpackages-index.html"},{"l":"de.haushaltsbuch.backend"},{"l":"de.haushaltsbuch.controller"},{"l":"de.haushaltsbuch.dtos"},{"l":"de.haushaltsbuch.frontend"},{"l":"de.haushaltsbuch.Main"}];updateSearchResults();

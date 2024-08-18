@@ -1,0 +1,175 @@
+.root{
+
+	-fx-background-size: cover;
+	-fx-padding: 10;
+}
+
+Label{
+	-fx-text-fill: #2D7D9A;
+	-fx-padding: 5;
+		
+}
+#gesambetragLabel{
+	-fx-text-fill: Blue ;
+}
+#gesamEinnahmeLabel{
+	-fx-text-fill: Green;
+}
+#gesamtAusgabeLabel{
+	-fx-text-fill: Red;
+}
+
+HBox{
+	 -fx-padding: 15;
+}
+
+.text-field {
+    -fx-background-color: -fx-text-box-border, -fx-background;
+    -fx-background-insets: 0, 0 0 1 0;
+    -fx-background-radius: 0;  
+}
+
+RadioButton{
+	-fx-padding: 20;
+	-fx-font-weight: bold;
+	-fx-text-fill: #2D7D9A;
+}
+
+.text-field:focused {
+    -fx-background-color: -fx-focus-color, -fx-background ;
+}
+
+#speichernKnopf{
+	-fx-border-style: solid;
+	-fx-border-color: green;
+	-fx-border-width: 2px;
+	-fx-text-fill: green;
+	-fx-padding: 5 20 5 20;
+	-fx-font-weight: bold;
+}
+#abbrechenKnopf{
+	-fx-border-style: solid;
+	-fx-border-color: red;
+	-fx-border-width: 2px;
+	-fx-text-fill: red;
+	-fx-padding: 5 20 5 20;
+	-fx-font-weight: bold;
+}
+#neuerEintragKnopf{
+    -fx-background-image: url('file:bilder/plus.png');
+	-fx-background-repeat: no-repeat;
+	-fx-background-position: center;
+	-fx-background-size: auto;
+	-fx-background-size: cover;
+	-fx-min-width: 50;
+    -fx-min-height: 50;
+    -fx-padding: 0 20px 0 0;
+}
+
+#speichernKnopf:hover{
+	-fx-background-color: green;
+	-fx-text-fill: white;
+	-fx-effect: dropshadow(three-pass-box,yellow,20,0,0,9);
+	-fx-font-weight: bold;
+}
+#abbrechenKnopf:hover{
+	-fx-background-color: red;
+	-fx-text-fill: white;
+	-fx-effect: dropshadow(three-pass-box,yellow,20,0,0,9);
+	-fx-font-weight: bold;
+}
+
+#buchungenKnopf{
+	-fx-background-image: url('file:bilder/buchung.png');
+	-fx-background-repeat: no-repeat;
+	-fx-background-position: center;
+	-fx-background-size: auto;
+	-fx-background-size: cover;
+	-fx-min-width: 50;
+    -fx-min-height: 50;
+}
+#statistikKnopf{
+	-fx-background-image: url('file:bilder/statistikBg01.png');
+	-fx-background-repeat: no-repeat;
+	-fx-background-position: center;
+	-fx-background-size: auto;
+	-fx-background-size: cover;
+	-fx-min-width: 80;
+    -fx-min-height: 50;
+}
+#kontenKnopf{
+	-fx-background-image: url('file:bilder/kontenBgr1.png');
+	-fx-background-repeat: no-repeat;
+	-fx-background-position: center;
+	-fx-background-size: auto;
+	-fx-background-size: cover;
+	-fx-min-width:70;
+    -fx-min-height: 50;
+}
+#behaelterFuerKarte{
+	
+  	-fx-padding: 10px 30px 10px 30px;
+  	-fx-max-height: 20px;
+}
+#behaelterFuerKonten{
+	-fx-background-color: #fff;
+  	-fx-padding: 10px 30px 10px 30px;
+  	-fx-max-height: 20px;
+}
+#behaelterFuerNeuerEintrag{
+	-fx-padding: 30 0 35px 0;
+	}
+#behaelterFuerAlleArtsBetrag{
+	-fx-background-color: -fx-text-box-border, -fx-background;
+    -fx-background-insets: 0, 0 0 1 0;
+    -fx-background-radius: 0; 
+}
+#ueberschrift{
+	-fx-font-size: 16px;
+}
+#bargeldBetrag{
+	-fx-text-fill: blue;
+}
+#saldoBetrag{
+	-fx-text-fill: green;
+	
+}
+#schuldenBetrag{
+	-fx-text-fill: red;
+	
+}
+#vermoegenBetrag{
+	-fx-text-fill: blue;
+	
+}
+#kontenBetrag{
+	-fx-text-fill: red;
+}
+
+#behaelterFuerVermoegenUndSchuldenUndSaldo{
+  	-fx-background-color: -fx-text-box-border, -fx-background;
+    -fx-background-insets: 0, 0 0 1 0;
+    -fx-background-radius: 0; 
+  	-fx-padding: 10px 30px 10px 30px;
+  	-fx-max-height: 20px;
+  	
+}
+#behaelterFuerUeberschrift{
+	-fx-background-color: -fx-text-box-border, -fx-background;
+    -fx-background-insets: 0, 0 0 1 0;
+    -fx-background-radius: 0;  
+ }
+ #zurueckKnopf{
+    -fx-background-image: url('file:bilder/ZURUECK.png');
+	-fx-background-repeat: no-repeat;
+	-fx-background-position: center;
+	-fx-background-size: auto;
+	-fx-background-size: cover;
+	-fx-min-width:50;
+    -fx-min-height: 50;
+    -fx-border: none;
+ }
+ #zurueckKnopf:hover{
+ 	-fx-background: none;
+    -fx-border: none;
+ }
